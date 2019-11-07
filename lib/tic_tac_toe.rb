@@ -58,8 +58,8 @@ end
 
       end
       return false
-  end
 
+end
 
   def full?
     @board.all? { |i| i =="X" || i == "O"}
